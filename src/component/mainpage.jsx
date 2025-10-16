@@ -70,13 +70,13 @@ export default function PersonalDetails() {
 
             <Form onSubmit={handleAddOrUpdate}>
                 <Row className="mb-3">
-                    <Col md={6}>
+                    <Col sm={6} md={6}>
                         <Form.Group>
                             <Form.Label>Name:</Form.Label>
                             <Form.Control type="text" name="name" placeholder="Your full name" value={data.name} onChange={handleChange} />
                         </Form.Group>
                     </Col>
-                    <Col md={6}>
+                    <Col sm={6} md={6}>
                         <Form.Group>
                             <Form.Label>Email ID:</Form.Label>
                             <Form.Control type="email" name="email" placeholder="Your email" value={data.email} onChange={handleChange} />
@@ -84,13 +84,13 @@ export default function PersonalDetails() {
                     </Col>
                 </Row>
                 <Row className="mb-3">
-                    <Col md={6}>
+                    <Col sm={6} md={6}>
                         <Form.Group>
                             <Form.Label>Phone:</Form.Label>
                             <Form.Control type="tel" name="phone" placeholder="Your phone number" value={data.phone} onChange={handleChange} />
                         </Form.Group>
                     </Col>
-                    <Col md={6}>
+                    <Col sm={6} md={6}>
                         <Form.Group>
                             <Form.Label>Date of Birth:</Form.Label>
                             <Form.Control type="date" name="dob" value={data.dob} onChange={handleChange} />
